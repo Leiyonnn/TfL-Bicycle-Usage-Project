@@ -15,7 +15,7 @@ data = data[data["Mode"] == "Private cycles"]
 station = input("Enter desired station: ").upper()
 
 #Defining function station_choices holding station and max_depth
-def station_choices(station, max_depth=2):
+def station_choices(station, max_depth=3):
 
 #Variable holding a copy of the rows for the given station choice
     stationDataFrame = data[data["Station"] == (station)].copy()
