@@ -28,4 +28,4 @@ Conclusions:
 Weather: Dry days sees higher cycle while rain reduces counts suggesting its more weather dependent 
 Peak Times: Consistent across stations roughly around 7–9 AM and 4:30–7 PM, likely due to commuting.
 Direction: More cyclists travel northbound in the morning, southbound in the evening.
-Modeling: A simple decision tree (max_depth=2) accurately identified peak hours for TfL planning.
+Modeling: A simple decision tree (max_depth=3) accurately identified peak hours for TfL planning.
