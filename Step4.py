@@ -32,7 +32,7 @@ def station_choices(station, max_depth=2):
     training_x2, test_x2, training_y, test_y = train_test_split(x2, y, random_state=1)
 
 #Using the DecisionTreeRegressor model with depth
-    my_regressor = DecisionTreeRegressor(max_depth = 2)
+    my_regressor = DecisionTreeRegressor(max_depth = 3)
 #Using the training dataset for the model
     my_regressor.fit(training_x2, training_y)
 #Making the structure of the decision tree 
@@ -48,7 +48,7 @@ def station_choices(station, max_depth=2):
     sns.scatterplot(x=stationDataFrame["RealTime"], y=stationDataFrame["Predicted"], label="Predicted")
     plt.show()
 #Calls the function with the parameter inside
-station_choices(station, max_depth=2)
+station_choices(station, max_depth=3)
     
     
     
